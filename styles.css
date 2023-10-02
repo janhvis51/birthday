@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* styles.css */
+
+/* Add a background image */
+.background-image {
+    background-image: url('shiviimg.jpg'); /* Specify the path to your image */
+    background-size: cover; /* Scale the image to cover the entire element */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 100vh; /* Set the height to the viewport height for full-screen effect */
+    /* You can add more styles as needed */
+}
+
+/* Style other elements as needed */
+
+
+/* Other styles... */
+
+
+/* Additional styling for your content */
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    background-color: #ff69b4;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.title {
+    font-size: 32px;
+    color: #fff;
+}
+
+.message {
+    font-size: 18px;
+    color: #333;
+    padding: 20px;
+    text-align: left;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff4589;
+}
+
